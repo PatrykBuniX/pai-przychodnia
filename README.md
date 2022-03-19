@@ -6,7 +6,6 @@
 
 ### Założenia (polecenie)  
 
-```
 Zadanie – Przychodnia lekarska
 
 Witryna powinna się składać z co najmniej 3 stron. Pierwsza strona powinna zawierać opcję zakładania konta i logowania. Po założeniu konta/zalogowaniu się powinna się uruchamiać strona nr 2, na której będzie można wybrać lekarza i godzinę wizyty. Do wyboru powinno być dwóch lekarzy – pierwszy przyjmuje pacjentów co 20 minut w godzinach 8:00 – 14:00, drugi również co 20 minut w godzinach 14:20 – 20:00.
@@ -16,7 +15,6 @@ W momencie wyboru lekarza i godziny, kolejny pacjent nie powinien mieć możliwo
 Po wyborze lekarza i wizyty oraz jej zatwierdzeniu, powinniśmy być przekierowani na stronę, która będzie nas informowała o dokonanej rezerwacji wizyty.
 
 W celu stworzenia witryny należy skorzystać z HTML, CSS, JavaScript/PHP, MySQL.
-```
 
 ---
 
