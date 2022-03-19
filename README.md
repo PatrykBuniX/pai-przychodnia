@@ -2,23 +2,23 @@
 
 # 👨🏻‍⚕️ Przychodnia lekarska
 
+## 🚀 Wersja Live
+
+Aplikacja dostępna jest online pod adresem: **_[pai-przychodnia-gorka.vercel.app](http://pai-przychodnia-gorka.vercel.app/)_**
+
+---
+
 ## 📖 O projekcie
 
 ### Założenia (polecenie)  
 
-Zadanie – Przychodnia lekarska
+Witryna powinna się składać z co najmniej **3 stron**. Pierwsza strona powinna zawierać opcję **zakładania konta i logowania**. Po założeniu konta/zalogowaniu się powinna się uruchamiać strona nr 2, na której będzie można **wybrać lekarza i godzinę wizyty**. Do wyboru powinno być **dwóch lekarzy** – pierwszy przyjmuje pacjentów **co 20 minut w godzinach 8:00 – 14:00**, drugi również **co 20 minut w godzinach 14:20 – 20:00**.
 
-Witryna powinna się składać z co najmniej 3 stron. Pierwsza strona powinna zawierać opcję zakładania konta i logowania. Po założeniu konta/zalogowaniu się powinna się uruchamiać strona nr 2, na której będzie można wybrać lekarza i godzinę wizyty. Do wyboru powinno być dwóch lekarzy – pierwszy przyjmuje pacjentów co 20 minut w godzinach 8:00 – 14:00, drugi również co 20 minut w godzinach 14:20 – 20:00.
+W momencie wyboru lekarza i godziny, kolejny **pacjent nie powinien mieć możliwości wyboru wizyty wcześniej zajętej przez innego pacjenta**.
 
-W momencie wyboru lekarza i godziny, kolejny pacjent nie powinien mieć możliwości wyboru wizyty wcześniej zajętej przez innego pacjenta.
-
-Po wyborze lekarza i wizyty oraz jej zatwierdzeniu, powinniśmy być przekierowani na stronę, która będzie nas informowała o dokonanej rezerwacji wizyty.
+Po wyborze lekarza i wizyty oraz jej zatwierdzeniu, powinniśmy być **przekierowani na stronę, która będzie nas informowała o dokonanej rezerwacji wizyty**.
 
 W celu stworzenia witryny należy skorzystać z HTML, CSS, JavaScript/PHP, MySQL.
-
----
-
-## 🚀 Wersja Live
 
 ---
 
@@ -26,18 +26,21 @@ W celu stworzenia witryny należy skorzystać z HTML, CSS, JavaScript/PHP, MySQL
 
 - 🍊 Frontend:
 
-  - [React.js](https://reactjs.org/) z frameworkiem [Next.js](https://nextjs.org/)
-  - [tailwindcss](https://tailwindcss.com/) - style
+  - [React.js](https://reactjs.org/) z frameworkiem [Next.js](https://nextjs.org/) (JavaScript)
+  - [tailwindcss](https://tailwindcss.com/) - style CSS
 
 - 🍑 Backend
 
   - [API Routes](https://nextjs.org/docs/api-routes/introduction) - endpointy
-  - [SQLite](https://www.sqlite.org/) - baza danych
+  - [PostgreSQL](https://www.postgresql.org/) - baza danych
   - [Prisma.js](https://www.prisma.io/) ORM - narzędzie ułatwiające komunikację z bazą danych
 
 - ☁️ Hosting
 
-  - [Vercel](https://vercel.com/) - darmowy plan
+  - aplikacja: [Vercel](https://vercel.com/) - darmowy plan
+  - baza danych: [Heroku](https://www.heroku.com/) - darmowy plan
+
+---
 
 ## 💻 Uruchomienie lokalnie (development mode):
 
@@ -64,4 +67,4 @@ Po pobraniu zawartości repozytorium (pobranie i rozpakowanie `.zip` lub `git cl
   npm run dev
   ```
 
-Po wykonaniu poleceń aplikacja będzie **dostępna pod adresem [http://localhost:3000](http://localhost:3000)**.
+Po wykonaniu poleceń aplikacja będzie **dostępna pod adresem _[http://localhost:3000](http://localhost:3000)_**.
