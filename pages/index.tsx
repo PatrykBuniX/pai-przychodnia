@@ -9,6 +9,7 @@ import { getAppointments } from "../lib/getAppointments";
 import { formatDate, getTommorowDate } from "../lib/date";
 import getConfig from "next/config";
 import { useRouter } from "next/router";
+import { getDeleteSessionCookie } from "../lib/getSessionExpirationDate";
 
 const Home = ({
   user,
@@ -234,6 +235,8 @@ export async function getServerSideProps(ctx: GetServerSidePropsContext) {
   });
 
   if (!session) {
+    ctx.res.setHeader("Set-Cookie", getDeleteSessionCookie());
+
     return {
       redirect: {
         permanent: false,
