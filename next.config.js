@@ -4,9 +4,6 @@ const nextConfig = {
   publicRuntimeConfig: {
     BASE_URL: process.env.BASE_URL || "http://localhost:3000",
   },
-  images: {
-    domains: ["images.unsplash.com"],
-  },
 };
 
 module.exports = nextConfig;

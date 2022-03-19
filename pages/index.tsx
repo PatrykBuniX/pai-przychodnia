@@ -132,7 +132,7 @@ const Home = ({
                         <Image
                           layout="fill"
                           className="rounded-md"
-                          src={doctor.avatar}
+                          src={`/${doctor.avatar}`}
                           alt={`${doctor.name} photo.`}
                           objectFit="cover"
                         />
