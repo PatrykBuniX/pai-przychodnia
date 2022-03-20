@@ -21,7 +21,7 @@ const Home = ({
           {appointments.length < 1 && (
             <p className="mt-5">Nie masz żadnych rezerwacji!</p>
           )}
-          <ul className="mt-5 grid grid-cols-2">
+          <ul className="mt-5 grid grid-cols-1 md:grid-cols-2">
             {appointments
               .sort((a) => (a.id === newAppointmentId ? -1 : 1))
               .map((a) => {
