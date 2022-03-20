@@ -48,13 +48,7 @@ W celu stworzenia witryny należy skorzystać z HTML, CSS, JavaScript/PHP, MySQL
 
 - Aby uruchomić projekt lokalnie, wymagany jest [Node.js](https://nodejs.org/) (najlepiej v16.13.0)
 
-Po pobraniu zawartości repozytorium (pobranie i rozpakowanie `.zip` lub `git clone`) należy pobrać archiwum [db-config.zip](https://github.com/PatrykBuniX/pai-przychodnia/raw/master/db-config.zip): https://github.com/PatrykBuniX/pai-przychodnia/raw/master/db-config.zip.
-
-Archiwum jest zaszyfrowane hasłem - Nazwisko nauczyciela sprawdzającego tą pracę zaczynając od wielkiej litery (podpowiedź: nauczyciel uczący PAI i ABD grupę 1/2 klasy 4H 😅).
-
-W archiwum znajduje się plik `.env` - należy przekopiwać go do folderu głównego projektu. (Z racji, że plik zaczyna się od (`.`) może być ukryty.
-
-Następnie będąc w roocie projektu należy wykonać polecenia:
+Po pobraniu zawartości repozytorium (pobranie i rozpakowanie `.zip` lub `git clone`) należy będąc w roocie projektu wykonać polecenia:
 
 - instalacja wymaganych paczek:
 
