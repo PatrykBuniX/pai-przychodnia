@@ -1,5 +1,5 @@
 import { NextApiResponse, NextApiRequest } from "next";
-import { getDeleteSessionCookie } from "../../../lib/getSessionExpirationDate";
+import { getDeleteSessionCookie } from "../../../lib/auth";
 import { prisma } from "../../../lib/prisma";
 
 export default async function handler(

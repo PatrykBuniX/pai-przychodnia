@@ -9,7 +9,7 @@ import { getAppointments } from "../lib/getAppointments";
 import { formatDate, getTommorowDate } from "../lib/date";
 import getConfig from "next/config";
 import { useRouter } from "next/router";
-import { getDeleteSessionCookie } from "../lib/getSessionExpirationDate";
+import { getDeleteSessionCookie } from "../lib/auth";
 
 const Home = ({
   user,

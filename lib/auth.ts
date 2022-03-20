@@ -5,7 +5,7 @@ export const getSessionExpirationDate = () => {
 };
 
 export const getSessionCookie = (sessionId: string, expireAt: Date) =>
-  `authorization=${sessionId}; Expires=${expireAt.toUTCString()}; Secure: HttpOnly; Path=/;`;
+  `authorization=${sessionId}; Expires=${expireAt.toUTCString()}; Secure; HttpOnly; Path=/;`;
 
 export const getDeleteSessionCookie = () =>
   `authorization=; Expires=${new Date(Date.now()).toUTCString()}; Path=/;`;
